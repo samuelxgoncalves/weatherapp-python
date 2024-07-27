@@ -29,7 +29,7 @@ def get_hour_icon(day, hour):
 def get_hour_temp(day, hour):
     return request_current()["forecast"]["forecastday"][day]["hour"][hour]["temp_c"]
 
-API_KEY = "cd73eff588d9418f80901527242607"
+API_KEY = "x"
 WIDTH = 1200
 HEIGHT = 700
 
